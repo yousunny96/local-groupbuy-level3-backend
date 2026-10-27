@@ -1,0 +1,9 @@
+/node_modules
+/dist
+*.tsbuildinfo
+# 비밀 값(DB 주소, API 키)은 GitHub에 올리지 않는다. 예시는 .env.example 참고
+.env
+.env.*
+!.env.example
+.DS_Store
+coverage
